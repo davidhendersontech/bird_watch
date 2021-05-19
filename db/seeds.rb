@@ -9,3 +9,7 @@
 cardinal = Bird.create(name: "jerry", species: "Cardinal", tree: Tree.first)
 bluebird = Bird.create(name: "David", species: "Blue", tree: Tree.second)
 raven = Bird.create(name: "Matt", species: "Raven", tree: Tree.third)
+
+first_tree = Tree.create(number: 1)
+second_tree = Tree.create(number: 2)
+three_tree = Tree.create(number: 3)
